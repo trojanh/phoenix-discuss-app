@@ -1,0 +1,36 @@
+[13:01:47] rajan@rajan-Lenovo-G50-80:discuss$ npm install && node node_modules/brunch buildr
+npm ERR! addLocal Could not install /home/rajan/Kiprosh_Goodcity/ElixirAndPhoenix/discuss/deps/phoenix
+npm ERR! addLocal Could not install /home/rajan/Kiprosh_Goodcity/ElixirAndPhoenix/discuss/deps/phoenix_html
+npm ERR! Linux 4.4.0-72-generic
+npm ERR! argv "/home/rajan/.nvm/versions/node/v5.0.0/bin/node" "/home/rajan/.nvm/versions/node/v5.0.0/bin/npm" "install"
+npm ERR! node v5.0.0
+npm ERR! npm  v3.3.6
+npm ERR! path /home/rajan/Kiprosh_Goodcity/ElixirAndPhoenix/discuss/deps/phoenix
+npm ERR! code ENOENT
+npm ERR! errno -2
+npm ERR! syscall open
+
+npm ERR! enoent ENOENT: no such file or directory, open '/home/rajan/Kiprosh_Goodcity/ElixirAndPhoenix/discuss/deps/phoenix'
+npm ERR! enoent This is most likely not a problem with npm itself
+npm ERR! enoent and is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/rajan/Kiprosh_Goodcity/ElixirAndPhoenix/discuss/npm-debug.log
+
+{---------------------------resolved_by---------------------------}
+[13:04:17] rajan@rajan-Lenovo-G50-80:discuss$ nvm install node latest
+[13:06:24] rajan@rajan-Lenovo-G50-80:discuss$ npm install && node node_modules/brunch buildr
+
+[13:19:10] rajan@rajan-Lenovo-G50-80:discuss$ npm install && node node_modules/brunch buildr
+npm WARN deprecated babel-preset-latest@6.24.1: 💥  preset-latest accomplishes the same task as babel-preset-env. 🙏  Please install it with 'npm install babel-preset-env --save-dev'. '{ "presets": ["latest"] }' to '{ "presets": ["env"] }'. For more info, please check the docs: http://babeljs.io/docs/plugins/preset-env 👌. And let us know how you're liking Babel at @babeljs on 🐦
+npm WARN deprecated babel-preset-es2016@6.24.1: We're really excited that you're trying to use ES2016 syntax, but instead of making more yearly presets, Babel has a better preset that we recommend you use instead: npm install babel-preset-env --save-dev. Give us a follow @babeljs to get more updates
+npm WARN deprecated babel-preset-es2017@6.24.1: We're really excited that you're trying to use ES2017 syntax, but instead of making more yearly presets, Babel has a better preset that we recommend you use instead: npm install babel-preset-env --save-dev. Give us a follow @babeljs to get more updates
+npm ERR! code ENOLOCAL
+npm ERR! Could not install from "deps/phoenix" as it does not contain a package.json file.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/rajan/.npm/_logs/2017-08-30T07_50_49_999Z-debug.log
+
+{---------------------------resolved_by---------------------------}
+[13:23:23] rajan@rajan-Lenovo-G50-80:discuss$ mix deps.update phoenix phoenix_html
